@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+.border-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 4px;
+    border-radius: 4px 4px 0 0;
+    margin-top: -4px;
+}
+
+#facebook::after {
+    background-color: hsl(208, 92%, 53%);
+}
+#twitter::after {
+    background-color: hsl(203, 89%, 53%);
+}
+#youtube::after {
+    background-color: hsl(348, 97%, 39%);
+}
+
+#instagram::after {
+    background-image: linear-gradient(to left, #fdc468, #df4996);
+}
