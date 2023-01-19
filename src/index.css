@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --animate-delay: 0.15s;
+}
+
 body {
     font-family: Inter, sans-serif;
+}
+
+body * {
+    @apply transition-colors duration-200;
 }
 
 .border-bar::after {

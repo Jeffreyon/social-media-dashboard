@@ -33,7 +33,7 @@ function App() {
             {loading ? (
                 <LoadingComponent />
             ) : (
-                <div className={`text-slate-900 dark:bg-slate-900`}>
+                <div className="text-slate-900 dark:bg-slate-900 animate__animated animate__fadeIn">
                     <div className=" bg-slate-50 dark:bg-slate-800 pt-8 pb-40 px-6">
                         <div className="max-w-6xl mx-auto sm:flex items-center justify-between">
                             <div>
@@ -63,7 +63,7 @@ function App() {
                                         key={ii}
                                         value={platform}
                                     >
-                                        <FollowersCard />
+                                        <FollowersCard index={ii} />
                                     </DashboardContext.Provider>
                                 );
                             })}
@@ -79,7 +79,7 @@ function App() {
                                             key={ii}
                                             value={platform}
                                         >
-                                            <PlatformMetrics />
+                                            <PlatformMetrics index={ii} />
                                         </DashboardContext.Provider>
                                     );
                                 })}
