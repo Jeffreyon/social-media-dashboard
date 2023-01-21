@@ -9,7 +9,7 @@ function PlatformMetrics({ index }) {
                 return otherMetrics.map((metric) => {
                     return (
                         <div
-                            className={`px-6 py-4 bg-slate-100 dark:bg-slate-700 rounded-md animate__animated animate__fadeInUp animate__delay-${index}s`}
+                            className={`px-6 py-4 bg-slate-100 hover:bg-slate-200 hover:cursor-pointer dark:bg-slate-700 dark:hover:bg-slate-600 rounded-md animate__animated animate__fadeInUp animate__delay-${index}s`}
                         >
                             <div className="flex justify-between items-center">
                                 <p className="font-semibold text-slate-600 dark:text-slate-400">
