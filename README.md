@@ -35,7 +35,7 @@ Users should be able to:
 
 ## My process
 
-You can read about the process on my blog, here's a link to the article
+You can read about the process on my blog, here's a [link to the article](https://jeffreyon.hashnode.dev/social-media-dashboard-with-a-theme-switcher)
 
 ### Built with
 
